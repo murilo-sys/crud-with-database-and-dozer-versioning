@@ -1,6 +1,5 @@
 package io.github.murilo_sys.controllers;
-import io.github.murilo_sys.data.dto.PersonDTO;
-import io.github.murilo_sys.model.Person;
+import io.github.murilo_sys.data.dto.v1.PersonDTO;
 import io.github.murilo_sys.services.PersonServices;
 import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;

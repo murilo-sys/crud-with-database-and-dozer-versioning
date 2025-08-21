@@ -5,7 +5,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 
 import java.util.List;
 
-import io.github.murilo_sys.data.dto.PersonDTO;
+import io.github.murilo_sys.data.dto.v1.PersonDTO;
 import io.github.murilo_sys.unitetests.mapper.mocks.MockPerson;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;

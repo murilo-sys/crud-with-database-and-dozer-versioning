@@ -1,13 +1,12 @@
 package io.github.murilo_sys.services;
 
-import io.github.murilo_sys.data.dto.PersonDTO;
+import io.github.murilo_sys.data.dto.v1.PersonDTO;
 import io.github.murilo_sys.exception.ResourceNotFoundExcepiton;
 import io.github.murilo_sys.model.Person;
 import io.github.murilo_sys.repository.PersonRepository;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
-import java.util.Optional;
 import java.util.logging.Logger;
 
 import static io.github.murilo_sys.mapper.ObjectMapper.*;

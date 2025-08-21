@@ -1,6 +1,7 @@
 package io.github.murilo_sys.services;
 
 import io.github.murilo_sys.data.dto.v1.PersonDTO;
+import io.github.murilo_sys.data.dto.v2.PersonDTOv2;
 import io.github.murilo_sys.exception.ResourceNotFoundExcepiton;
 import io.github.murilo_sys.model.Person;
 import io.github.murilo_sys.repository.PersonRepository;
@@ -55,6 +56,23 @@ public class PersonServices {
         logger.info("Creating one Person! ID: " + savedEntity.getId());
 
         return parseObject(savedEntity, PersonDTO.class);
+    }
+
+    public PersonDTOv2 createV2(PersonDTOv2 person) {
+
+        if (person.getId() != null) {
+            logger.info("Não é permitido setar ID ao person. Setando automaticamente!");
+            person.setId(null);
+        }
+
+        //converte de DTO para entidade
+        var entity = parseObject(person, Person.class);
+
+        var savedEntity = repository.save(entity);
+
+        logger.info("Creating one Person! ID: " + savedEntity.getId());
+
+        return parseObject(savedEntity, PersonDTOv2.class);
     }
 
 

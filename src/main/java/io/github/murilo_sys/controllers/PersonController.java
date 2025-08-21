@@ -1,5 +1,7 @@
 package io.github.murilo_sys.controllers;
+
 import io.github.murilo_sys.data.dto.v1.PersonDTO;
+import io.github.murilo_sys.data.dto.v2.PersonDTOv2;
 import io.github.murilo_sys.services.PersonServices;
 import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
@@ -39,11 +41,15 @@ public class PersonController {
         return service.create(person);
     }
 
+    @PostMapping(name = "/v2", consumes = MediaType.APPLICATION_JSON_VALUE, produces = MediaType.APPLICATION_JSON_VALUE)
+    public PersonDTOv2 create(@RequestBody PersonDTOv2 person) {
+        return service.createV2(person);
+    }
+
     @PutMapping(consumes = MediaType.APPLICATION_JSON_VALUE, produces = MediaType.APPLICATION_JSON_VALUE)
     public PersonDTO update(@RequestBody PersonDTO person) {
         return service.update(person);
     }
-
 
 
 }

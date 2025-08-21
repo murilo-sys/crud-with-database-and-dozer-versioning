@@ -5,19 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b022cf21-ae74-4fc6-9c1d-05901362fd42" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/io/github/murilo_sys/controllers/PersonController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/murilo_sys/controllers/PersonController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/murilo_sys/data/dto/PersonDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/murilo_sys/data/dto/v1/PersonDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/murilo_sys/data/dto/v2/v1/PersonDTOV2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/murilo_sys/data/dto/v2/v1/PersonDTOV2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/io/github/murilo_sys/services/PersonServices.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/murilo_sys/services/PersonServices.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/io/github/murilo_sys/unitetests/mapper/ObjectMapperTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/io/github/murilo_sys/unitetests/mapper/ObjectMapperTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/io/github/murilo_sys/unitetests/mapper/mocks/MockPerson.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/io/github/murilo_sys/unitetests/mapper/mocks/MockPerson.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/io/github/murilo_sys/controllers/PersonController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/github/murilo_sys/controllers/PersonController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/io/github/murilo_sys/data/dto/PersonDTO.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/io/github/murilo_sys/services/PersonServices.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/github/murilo_sys/services/PersonServices.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/io/github/murilo_sys/unitetests/mapper/ObjectMapperTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/io/github/murilo_sys/unitetests/mapper/ObjectMapperTests.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/io/github/murilo_sys/unitetests/mapper/mocks/MockPerson.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/io/github/murilo_sys/unitetests/mapper/mocks/MockPerson.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,6 +67,9 @@
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Murilo\OneDrive\Projetos\crud-with-database-and-dozer-versioning\src\main\java\io\github\murilo_sys\data\dto\v2" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="io.github.murilo_sys.data.dto" />
     </key>
@@ -132,7 +127,7 @@
       <workItem from="1752795608575" duration="2641000" />
       <workItem from="1753741372817" duration="4229000" />
       <workItem from="1754526680256" duration="25000" />
-      <workItem from="1755736049060" duration="422000" />
+      <workItem from="1755736049060" duration="2839000" />
     </task>
     <servers />
   </component>

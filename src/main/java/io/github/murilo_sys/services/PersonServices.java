@@ -47,11 +47,8 @@ public class PersonServices {
 
 
     public PersonDTO create(PersonDTO person) {
-
-        if (person.getId() != null) {
-            logger.info("Não é permitido setar ID ao person. Setando automaticamente!");
-            person.setId(null);
-        }
+        //Setando id null, o banco gera um ID automaticamente
+        person.setId(null);
 
         //converte de DTO para entidade
         var entity = parseObject(person, Person.class);

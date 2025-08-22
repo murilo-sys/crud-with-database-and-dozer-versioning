@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b022cf21-ae74-4fc6-9c1d-05901362fd42" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/murilo_sys/mapper/custom/PersonMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="b022cf21-ae74-4fc6-9c1d-05901362fd42" name="Changes" comment="Versionando MapperV2" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -126,11 +123,24 @@
       <workItem from="1754526680256" duration="25000" />
       <workItem from="1755736049060" duration="2923000" />
       <workItem from="1755818990043" duration="63000" />
-      <workItem from="1755821985460" duration="783000" />
+      <workItem from="1755821985460" duration="1154000" />
     </task>
+    <task id="LOCAL-00001" summary="Versionando MapperV2">
+      <option name="closed" value="true" />
+      <created>1755823134189</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1755823134189</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Versionando MapperV2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Versionando MapperV2" />
   </component>
 </project>

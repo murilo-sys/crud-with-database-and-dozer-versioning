@@ -3,8 +3,10 @@ package io.github.murilo_sys.services;
 import io.github.murilo_sys.data.dto.v1.PersonDTO;
 import io.github.murilo_sys.data.dto.v2.PersonDTOv2;
 import io.github.murilo_sys.exception.ResourceNotFoundExcepiton;
+import io.github.murilo_sys.mapper.custom.PersonMapper;
 import io.github.murilo_sys.model.Person;
 import io.github.murilo_sys.repository.PersonRepository;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
@@ -19,9 +21,12 @@ public class PersonServices {
     final PersonRepository repository;
     private final Logger logger = Logger.getLogger(PersonServices.class.getName());
 
-    public PersonServices(PersonRepository repository) {
+    public PersonServices(PersonRepository repository, PersonMapper converter) {
         this.repository = repository;
+        this.converter = converter;
     }
+
+    final PersonMapper converter;
 
 
     public List<PersonDTO> findAll() {

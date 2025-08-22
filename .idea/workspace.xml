@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b022cf21-ae74-4fc6-9c1d-05901362fd42" name="Changes" comment="Versionando MapperV2" />
+    <list default="true" id="b022cf21-ae74-4fc6-9c1d-05901362fd42" name="Changes" comment="Versionando MapperV2">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/murilo_sys/controllers/PersonController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/murilo_sys/controllers/PersonController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/murilo_sys/mapper/custom/PersonMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/murilo_sys/mapper/custom/PersonMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/murilo_sys/services/PersonServices.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/murilo_sys/services/PersonServices.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -25,6 +30,9 @@
   <component name="KubernetesApiProvider">{
   &quot;isMigrated&quot;: true
 }</component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 6
 }</component>
@@ -123,7 +131,7 @@
       <workItem from="1754526680256" duration="25000" />
       <workItem from="1755736049060" duration="2923000" />
       <workItem from="1755818990043" duration="63000" />
-      <workItem from="1755821985460" duration="1154000" />
+      <workItem from="1755821985460" duration="2559000" />
     </task>
     <task id="LOCAL-00001" summary="Versionando MapperV2">
       <option name="closed" value="true" />

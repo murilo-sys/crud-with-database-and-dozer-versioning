@@ -64,20 +64,18 @@ public class PersonServices {
     }
 
     public PersonDTOv2 createV2(PersonDTOv2 person) {
+       //Setando id null, o banco gera um ID automaticamente
+        person.setId(null);
 
-        if (person.getId() != null) {
-            logger.info("Não é permitido setar ID ao person. Setando automaticamente!");
-            person.setId(null);
-        }
+        //converter para DTO
+        var personEntity = converter.convertDTOtoEntity(person);
 
-        //converte de DTO para entidade
-        var entity = parseObject(person, Person.class);
-
-        var savedEntity = repository.save(entity);
+        //Entidade salva
+        var savedEntity = repository.save(personEntity);
 
         logger.info("Creating one Person! ID: " + savedEntity.getId());
 
-        return parseObject(savedEntity, PersonDTOv2.class);
+        return converter.convertEntityToDTO(savedEntity);
     }
 
 
